@@ -17,6 +17,12 @@ Ce document vous fournira aussi quelques astuces et informations sur la manière
 * [Créez un routeur](https://github.com/OpenClassrooms-Student-Center/4670706-architecture-mvc-php/tree/creez-routeur)
 * [Ajoutez des commentaires](https://github.com/OpenClassrooms-Student-Center/4670706-architecture-mvc-php/tree/ajoutez-commentaires)
 * [Gérez les erreurs](https://github.com/OpenClassrooms-Student-Center/4670706-architecture-mvc-php/tree/gerez-erreurs)
+* [Structurez vos données](https://github.com/OpenClassrooms-Student-Center/4670706-architecture-mvc-php/tree/structurez-donnees)
+* [Donnez vie à vos structures](https://github.com/OpenClassrooms-Student-Center/4670706-architecture-mvc-php/tree/donnez-vie-structures)
+* [Tirez parti de la composition](https://github.com/OpenClassrooms-Student-Center/4670706-architecture-mvc-php/tree/tirez-parti-composition)
+* [Utilisez les namespaces](https://github.com/OpenClassrooms-Student-Center/4670706-architecture-mvc-php/tree/utilisez-namespaces)
+* [Modifiez un commentaire](https://github.com/OpenClassrooms-Student-Center/4670706-architecture-mvc-php/tree/modifiez-commentaire)
+* [Final](https://github.com/OpenClassrooms-Student-Center/4670706-architecture-mvc-php/tree/final)
 
 ## Installation
 
@@ -28,10 +34,10 @@ De plus, ce projet nécessite l'utilisation d'une base de données MySQL. Vous d
 
 ### Configuration
 
-Une fois que vous avez installé votre serveur MySQL, vous pouvez remplacer les identifiants utilisés dans le code par les votre. Dans le fichier `blog/src/model.php`, à la ligne 5 :
+Une fois que vous avez installé votre serveur MySQL, vous pouvez remplacer les identifiants utilisés dans le code par les votre. Dans le fichier `blog/src/model.php` :
 
 ```php
-$database = new PDO('mysql:host=localhost;dbname=blog;charset=utf8', 'blog', 'password');
+$database = new PDO('mysql:host=localhost;dbname=blog;charset=utf8;port=n°de port', 'blog', 'password');
 ```
 
 Vous devriez aussi remplir votre base de données. Vous pouvez charger le schéma par défaut (et quelques données), contenu dans le fichier `db.sql`. Pour ce faire, vous pouvez utiliser votre interface d'administration MySQL, ou bien lancer la commande suivante, si vous êtes sous Linux :
